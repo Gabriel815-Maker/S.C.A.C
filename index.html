@@ -1,62 +1,86 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>S.C.A.C | Controle de acesso para a rede da sua empresa</title>
-<meta name="description" content="Gerencie o que cada computador da rede pode acessar, com perfis prontos para cada atividade. Preço acessível para empresas.">
+<title>S.C.A.C | Controle de acesso para os computadores da sua empresa</title>
+<meta name="description" content="Libere ou bloqueie sites e programas em todos os computadores da rede de uma só vez, com perfis prontos para cada atividade. Preço acessível para empresas.">
+<meta property="og:title" content="S.C.A.C | Controle de acesso para os computadores da sua empresa">
+<meta property="og:description" content="Escolha um perfil e aplique em toda a rede: reunião, treinamento ou expediente normal. Sem passar de máquina em máquina.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2317808e'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3ES%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="nav"><div class="wrap">
 <a class="logo" href="#topo">S.C.A.C</a>
-<ul><li><a href="#sistema">O sistema</a></li><li><a href="#recursos">Recursos</a></li><li><a href="#como">Como funciona</a></li><li><a href="#preco">Preço</a></li></ul>
+<ul><li><a href="#problema">Por que usar</a></li><li><a href="#sistema">O sistema</a></li><li><a href="#como">Como funciona</a></li><li><a href="#preco">Preço</a></li></ul>
 <a class="btn" href="#contato">Fale conosco</a>
 </div></header>
 
 <main id="topo">
 <div class="hero"><div class="wrap">
 <div class="intro">
-<h1>Cada atividade com os sites certos, em todos os computadores.</h1>
-<p class="lead">O S.C.A.C encontra os computadores da sua rede e aplica regras de acesso por perfil. Em uma reunião, só o que a reunião precisa. Em um treinamento, VS Code e as abas liberadas. Sem passar de máquina em máquina.</p>
-<div class="cta"><a class="btn" href="#contato">Fale com a nossa equipe</a><a class="btn ghost" href="#como">Ver como funciona</a></div>
+<h1>Controle o que cada computador da sua empresa pode acessar, de um só lugar.</h1>
+<p class="lead">O S.C.A.C encontra os computadores da sua rede e libera ou bloqueia sites e programas em todos eles de uma vez, de acordo com a atividade do momento: reunião, treinamento ou trabalho normal. Sem configurar máquina por máquina.</p>
+<div class="cta"><a class="btn" href="#contato">Pedir uma proposta</a><a class="btn ghost" href="#como">Ver como funciona</a></div>
 </div>
 <div class="demo" aria-label="Demonstração de perfis">
-<div class="demo-h">Experimente: escolha um perfil e veja o que muda</div>
+<div class="demo-h">Veja na prática: escolha um perfil e veja o que muda</div>
 <div class="tabs" id="tabs" role="tablist"></div>
 <ul class="sites" id="sites" aria-live="polite"></ul>
 <div class="log" id="log" aria-live="polite"></div>
+<p class="demo-note">Simulação para você entender a ideia. O sistema real aplica o perfil nos computadores da sua rede.</p>
 </div>
 </div></div>
 
+<section class="band" id="problema"><div class="wrap">
+<div class="sec-head"><h2>O que muda na sua empresa</h2>
+<p>Hoje, controlar o que os computadores acessam costuma dar trabalho e depender de alguém passando em cada máquina. O S.C.A.C coloca isso em um só painel.</p></div>
+<div class="compare">
+<div class="antes"><h3>Sem o S.C.A.C</h3>
+<ul><li>Cada computador precisa ser configurado separadamente.</li><li>Na reunião ou no treinamento, cada pessoa pode abrir o que quiser.</li><li>Ninguém tem certeza de que a regra chegou em todas as máquinas.</li></ul></div>
+<div class="depois"><h3>Com o S.C.A.C</h3>
+<ul><li>Você escolhe o perfil e envia para os computadores da rede.</li><li>Cada atividade tem só os sites e programas que ela precisa.</li><li>O registro mostra o que foi enviado e quando.</li></ul></div>
+</div></div></section>
+
+<section id="usos"><div class="wrap">
+<div class="sec-head"><h2>Um perfil para cada momento do dia</h2>
+<p>Um perfil é uma lista pronta do que fica liberado e do que fica bloqueado. Você cria os seus e troca quando a atividade muda.</p></div>
+<div class="uses">
+<div><h3>Reunião</h3><p>Só a ferramenta de videochamada e os documentos da pauta. Nada de distração durante a conversa.</p></div>
+<div><h3>Treinamento</h3><p>Libera o VS Code e algumas abas do Google para a aula, e bloqueia o resto.</p></div>
+<div><h3>Expediente normal</h3><p>Um perfil para o dia a dia, com os sites de trabalho liberados e os de lazer bloqueados.</p></div>
+</div></div></section>
+
 <section class="band" id="sistema"><div class="wrap">
 <div class="sec-head"><h2>Um painel único para toda a rede</h2>
-<p>A tela do S.C.A.C mostra os computadores encontrados, com ID, nome e endereço, e reúne as ações em um só lugar: consultar status, enviar política, trocar perfil e disparar reset.</p></div>
-<div class="shot"><img src="imagens/print-sistema.jpg" alt="Tela do console S.C.A.C com a lista de agentes encontrados na rede e os botões de consultar status, enviar política, trocar perfil e disparar reset" width="1400" height="756" loading="lazy"></div>
-<p class="caption">Console de teste do projeto. O perfil &quot;Programacao&quot; aparece selecionado na lista de perfis, pronto para ser enviado ao computador escolhido.</p>
+<p>A tela do S.C.A.C lista os computadores encontrados, com ID, nome e endereço, e reúne as ações em um só lugar: consultar o status, enviar a política, trocar o perfil e reiniciar a configuração.</p></div>
+<div class="shot"><img src="imagens/print-sistema.webp" alt="Tela do console S.C.A.C com a lista de computadores encontrados na rede e os botões de consultar status, enviar política, trocar perfil e disparar reset" width="1400" height="756" loading="lazy"></div>
+<p class="caption">Tela real do console do projeto. O perfil &quot;Programacao&quot; aparece selecionado na lista de perfis, pronto para ser enviado ao computador escolhido.</p>
 </div></section>
 
 <section id="recursos"><div class="wrap">
 <div class="sec-head"><h2>O que a sua equipe de TI ganha</h2></div>
 <div class="feat">
-<div><h3>Descoberta automática na rede</h3><p>Um clique em &quot;Descobrir na LAN&quot; e os computadores com o agente aparecem na lista.</p></div>
-<div><h3>Perfis por atividade</h3><p>Crie filtros como &quot;Treinamento&quot;: libera o VS Code e algumas abas do Google, e bloqueia o resto.</p></div>
-<div><h3>Políticas em arquivo</h3><p>As regras ficam salvas em um arquivo. Escolha, reaproveite e envie para quem precisar.</p></div>
-<div><h3>Status e reset à distância</h3><p>Confira como cada computador está e reinicie a configuração dele sem sair da sua mesa.</p></div>
-<div><h3>Registro de cada operação</h3><p>O log mostra o que foi enviado e quando, para você saber que a regra chegou.</p></div>
+<div><h3>Encontra os computadores sozinho</h3><p>Um clique em &quot;Descobrir na LAN&quot; e os computadores com o agente aparecem na lista.</p></div>
+<div><h3>Regras prontas por atividade</h3><p>Crie perfis como &quot;Treinamento&quot;: libera o VS Code e algumas abas do Google, e bloqueia o resto.</p></div>
+<div><h3>Regras salvas em arquivo</h3><p>Escolha uma política salva, reaproveite e envie para quem precisar.</p></div>
+<div><h3>Status e reinício à distância</h3><p>Confira como cada computador está e reinicie a configuração dele sem sair da sua mesa.</p></div>
+<div><h3>Confirmação de cada envio</h3><p>O registro mostra o que foi enviado e quando, para você saber que a regra chegou.</p></div>
 <div><h3>Feito para o orçamento de empresas</h3><p>Sem servidor caro nem contrato complicado. Controle de acesso que cabe no bolso.</p></div>
 </div></div></section>
 
 <section class="band" id="como"><div class="wrap">
 <div class="sec-head"><h2>Do zero ao controle em quatro passos</h2></div>
 <ol class="steps">
-<li><h3>Instale o agente</h3><p>Ele roda em cada computador que você quer gerenciar.</p></li>
+<li><h3>Instale o agente</h3><p>Um pequeno programa que roda em cada computador que você quer gerenciar.</p></li>
 <li><h3>Descubra na rede</h3><p>O console encontra os agentes sozinho, pela rede local.</p></li>
 <li><h3>Escolha o perfil</h3><p>Selecione o computador e o perfil da atividade.</p></li>
-<li><h3>Envie e acompanhe</h3><p>Aplique a política e confirme tudo pelo log.</p></li>
+<li><h3>Envie e acompanhe</h3><p>Aplique a política e confirme tudo pelo registro.</p></li>
 </ol></div></section>
 
 <section id="preco"><div class="wrap split">
@@ -66,9 +90,10 @@
 <details><summary>Funciona em qualquer computador?</summary><p>A versão atual roda em Windows e Linux. Fale com a nossa equipe se você usa outro sistema.</p></details>
 <details><summary>Preciso de um servidor?</summary><p>Não. O console descobre os agentes direto pela rede local.</p></details>
 <details><summary>Posso criar os meus próprios perfis?</summary><p>Sim. Cada perfil é uma política com os sites e programas que você quer liberar.</p></details>
+<details><summary>O que acontece depois que eu enviar a mensagem?</summary><p>A nossa equipe lê o seu pedido e responde por e-mail com uma proposta para a quantidade de computadores que você informar.</p></details>
 </div></div>
 <div class="price"><h3>Plano para empresas</h3>
-<ul><li>Descoberta de computadores na rede</li><li>Perfis de acesso personalizados</li><li>Envio de política e reset remoto</li><li>Suporte direto da equipe</li></ul>
+<ul><li>Descoberta de computadores na rede</li><li>Perfis de acesso personalizados</li><li>Envio de política e reinício remoto</li><li>Suporte direto da equipe</li></ul>
 <a class="btn" href="#contato">Pedir uma proposta</a></div>
 </div></section>
 
@@ -76,11 +101,14 @@
 <div><h2>Vamos conversar sobre a sua rede?</h2>
 <p>Conte quantos computadores você tem e o que precisa controlar. A nossa equipe responde por e-mail.</p>
 <div class="mail"><a href="mailto:grupo4hackathon2026@gmail.com">grupo4hackathon2026@gmail.com</a><button type="button" id="copy">Copiar e-mail</button></div></div>
-<form id="form">
+<form id="form" novalidate>
 <label>Seu nome<input name="nome" required autocomplete="name"></label>
+<label>Seu e-mail para resposta<input name="email" type="email" required autocomplete="email"></label>
 <label>Empresa<input name="empresa" autocomplete="organization"></label>
 <label>Como podemos ajudar?<textarea name="msg" required placeholder="Ex.: temos 40 computadores e queremos bloquear jogos no horário de trabalho"></textarea></label>
-<button class="btn" type="submit">Enviar para a equipe</button>
+<div class="hp" aria-hidden="true"><label>Não preencha<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+<button class="btn" type="submit" id="send">Enviar para a equipe</button>
+<div id="status" role="status"></div>
 </form>
 </div></section>
 </main>
