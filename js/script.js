@@ -1,12 +1,12 @@
 const EMAIL="grupo4hackathon2026@gmail.com";
 const apps=["VS Code","Documentos Google","Google Meet","GitHub","YouTube","Redes sociais","Jogos online"];
 const perfis={
-"Aula de programação":[1,1,0,1,0,0,0],
+"Treinamento":[1,1,0,1,0,0,0],
 "Reunião":[0,1,1,0,0,0,0],
-"Prova":[0,1,0,0,0,0,0],
+"Documentação":[0,1,0,0,0,0,0],
 "Livre":[1,1,1,1,1,1,1]};
 const tabs=document.getElementById("tabs"),list=document.getElementById("sites"),log=document.getElementById("log");
-let atual="Aula de programação";
+let atual="Treinamento";
 function pintar(nome){
   atual=nome;
   [...tabs.children].forEach(b=>b.setAttribute("aria-selected",b.textContent===nome));
